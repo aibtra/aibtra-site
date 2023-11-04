@@ -1,4 +1,4 @@
-# Aibtra - a desktop tool to refine texts using OpenAI
+# Aibtra - an open-source desktop tool to refine texts using OpenAI
 
 > **Aibtra is in its early stages (alpha). Feedback is welcome at [GitHub](https://github.com/aibtra/aibtra).**
 
