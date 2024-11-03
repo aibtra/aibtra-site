@@ -9,8 +9,24 @@ It uses [OpenAI](https://openai.com)'s API along with predefined instructions in
 
 Aibtra primarily aims to serve software developers and other tech-savvy users who frequently need to write short- to medium-sized texts, such as emails or technical documentation.
 
-* [Binary Downloads: Windows, Linux, macOS](https://github.com/aibtra/aibtra/releases/tag/latest)
-* [Source Code](https://github.com/aibtra/aibtra)
+# Downloads
+
+<table>
+  <tr>
+    <td colspan="3" align="center"><b>Download Latest Build</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aibtra/aibtra/releases/download/latest/aibtra-latest-windows.zip">Windows</a></td>
+    <td><a href="https://github.com/aibtra/aibtra/releases/download/latest/aibtra-latest-linux.tar.gz">Linux</a></td>
+    <td><a href="https://github.com/aibtra/aibtra/releases/download/latest/aibtra-latest-macos.tar.gz">MacOS</a></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><b>Source Code</b></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><a href="https://github.com/aibtra/aibtra">All Platforms</a></td>
+  </tr>
+</table>
 
 > **Note:** Aibtra utilizes OpenAI's API instead of ChatGPT. OpenAI's
 > API comes with charges, so there may be notable costs incurred when
