@@ -1,8 +1,17 @@
-# Aibtra - an open-source desktop tool to refine texts using OpenAI
+# Aibtra - Open-Source Desktop Tool for Text Refinement and Pair Programming with OpenAI
 
-> **Aibtra is in its early stages (alpha). Feedback is welcome at [GitHub](https://github.com/aibtra/aibtra).**
+> **Aibtra is currently in its alpha phase. We welcome your feedback on [GitHub](https://github.com/aibtra/aibtra).**
 
-![Aibtra](images/aibtra.gif)
+<table style="width:100%">
+  <tr>
+    <td style="width:50%"><img src="images/aibtra.gif" alt="Aibtra" style="width:100%"></td>
+    <td style="width:50%"><img src="images/aibtra.gif" alt="Aibtra" style="width:100%"></td>
+  </tr>
+  <tr>
+    <td>Refining Text</td>
+    <td>AI Pair Programmin</td>
+  </tr>
+</table>
 
 Aibtra is a small open-source desktop application that assists with reviewing and refining plaintext and markdown.
 It uses [OpenAI](https://openai.com)'s API along with predefined instructions internally.
