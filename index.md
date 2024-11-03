@@ -11,7 +11,7 @@ Aibtra primarily aims to serve software developers and other tech-savvy users wh
 
 # Downloads
 
-<table>
+<table width="100%">
   <tr>
     <td colspan="3" align="center"><b>Download Latest Build</b></td>
   </tr>
