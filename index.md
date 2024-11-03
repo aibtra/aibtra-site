@@ -2,14 +2,14 @@
 
 > **Aibtra is currently in its alpha phase. We welcome your feedback on [GitHub](https://github.com/aibtra/aibtra).**
 
-<table style="width:100%">
+<table style="width:100%; border: none;">
   <tr>
     <td style="width:50%"><img src="images/aibtra.gif" alt="Aibtra" style="width:100%"></td>
     <td style="width:50%"><img src="images/aibtra.gif" alt="Aibtra" style="width:100%"></td>
   </tr>
   <tr>
     <td>Refining Text</td>
-    <td>AI Pair Programmin</td>
+    <td>AI Pair Programming</td>
   </tr>
 </table>
 
