@@ -17,13 +17,39 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+
+      - uses: ruby/setup-ruby@v1
         with:
-          source: ./
-          destination: ./_site
+          ruby-version: '3.2'
+
+      - name: Setup cache for Bundler
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            Gemfile.lock
+            vendor/bundle
+          key: ${{ runner.os }}-bundler-${{ hashFiles('Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-bundler-
+
+      - name: Install - Bundler
+        env:
+          MAKE: make -j2
+        working-directory: .
+        run: |
+          bundle config set path vendor/bundle
+          bundle install --jobs=4 --retry=3
+          bundle clean
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Copy _redirects to _site and list files
+        run: |
+          cp _redirects _site/
+          find _site
+
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:

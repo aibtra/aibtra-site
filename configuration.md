@@ -1,4 +1,7 @@
-# Configuration
+---
+title: Configuration
+layout: single
+---
 
 ## Directory
 
@@ -28,6 +31,3 @@ Example:
     }
 }
 ```
-
-
-

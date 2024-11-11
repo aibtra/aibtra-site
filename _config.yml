@@ -1,3 +1,24 @@
-theme: jekyll-theme-primer
-title: Aibtra - a desktop tool to refine texts using OpenAI
-markdown: kramdown
+title: Aibtra - Streamlined Text and Source Code Optimization with OpenAI
+description: A versatile desktop tool utilizing OpenAI for streamlined Optimization of plain text documents and source code.
+
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-sass-converter
+  
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+
+atom_feed:
+  hide: true
+
+nav_links:
+  - title: "Home"
+    url: "/"

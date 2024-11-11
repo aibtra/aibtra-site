@@ -1,4 +1,7 @@
-# Acknowledgments
+---
+title: Acknowledgments
+layout: single
+---
 
 * [openai.com](https://openai.com), for building an incredible AI
 * [kotlinlang.org](https://kotlinlang.org/), for providing Kotlin

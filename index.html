@@ -1,0 +1,141 @@
+---
+layout: splash
+title: "Aibtra: Bringing OpenAI to Your Desktop"
+permalink: /
+header:
+  overlay_image: "assets/images/banner.png"
+  actions:
+    - label: "Download"
+      url: "#download"
+---
+
+<div>
+  <p>
+    Aibtra is a <b>lightweight, open-source desktop tool</b> designed to enhance your plaintext and source code review process.
+    Tailored for software developers and tech-savvy users, Aibtra integrates with your existing tools, helping you interact with AI more efficiently.
+  </p>
+</div>
+
+<div class="notice--warning">
+  <p>
+    Aibtra does not use ChatGPT, but you will need an <a href="openai-api">OpenAI API account</a>.
+  </p>
+</div>
+
+<div class="feature-row">
+  <div class="feature-col">
+    <a href="/assets/images/feature-text-optimization.gif">
+      <img src="/assets/images/feature-text-optimization.gif" alt="Text Optimization">
+    </a>
+    <h2>Text Optimization and Proofreading</h2>
+    <p>Aibtra streamlines proofreading and text optimization for various types of plain text documents, with special enhancements for emails and markdown files.</p>
+  </div>
+  <div class="feature-col">
+    <a href="/assets/images/feature-code-refinement-overview.gif">
+      <img src="/assets/images/feature-code-refinement-overview.gif" alt="Code Refinement">
+    </a>
+    <h2>Pair Programming and Code Refinement</h2>
+    <p>Aibtra simplifies the refinement and enhancement of source code, regardless of your preferred IDE or editor's capabilities.</p>
+  </div>
+</div>
+
+<style>
+.feature-row {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+.feature-col {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+</style>
+
+<h2 style="font-size: 2.5em; text-align: center;" id="download">Download Latest Build</h2>
+
+<div class="notice--warning">
+  <p>
+    Aibtra is open-source and free of charge. It is actively being developed and is currently available as a <b>Preview Release</b>.
+  </p>
+  <p>
+    The source code can be found on <a href="https://github.com/aibtra/aibtra/" target="_blank" rel="noopener noreferrer">GitHub</a>, and the binaries below are built on GitHub for your convenience.
+  </p>
+  <p>
+    If you encounter any problems or have suggestions, please <a href="https://github.com/aibtra/aibtra/issues" target="_blank" rel="noopener noreferrer">report them on GitHub</a>.
+  </p>
+</div>
+
+<div class="download-row">
+  <div class="download-col">
+    <p><a href="/downloads/windows-latest.zip" class="btn">Windows (ZIP)</a></p>
+    <p>If starting <code>aibtra.exe</code> results in a "Searching for app in the store?" message, right-click <code>aibtra.exe</code>, open the Properties, and clear the <em>Read-Only</em> attribute and select <em>Unblock</em>.</p>
+  </div>
+  <div class="download-col">
+    <p><a href="/downloads/linux-latest.tar.gz" class="btn">Linux (tar.gz)</a></p>
+  </div>
+  <div class="download-col">
+    <p><a href="/downloads/macos-intel-latest.tar.gz" class="btn">MacOS Intel (tar.gz)</a></p>
+    <p><a href="/downloads/macos-arm-latest.tar.gz" class="btn">MacOS ARM (tar.gz)</a></p>
+    <p>If you encounter a message stating "Package is damaged" when double-clicking <code>aibtra</code>, you need to reset the quarantine attributes by using the following command:</p>
+    <code>sudo xattr -rd com.apple.quarantine &lt;path/to/aibtra&gt;</code>
+  </div>
+</div>
+
+<style>
+.download-row {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+.download-col {
+    flex: 1 1 0;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.download-col:first-child {
+    border-left: none;
+    padding-left: 0px;
+}
+.download-col .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+</style>
+
+<h2 style="font-size: 2.5em; text-align: center;" id="further-reading">Further Reading</h2>
+
+<div class="material-row">
+  <ul>
+    <li><a href="/configuration">Configuration</a></li>
+    <li><a href="/acknowlegments">Acknowledgments</a></li>
+  </ul>
+</div>
+
+<style>
+.material-row {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+.material-col {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.material-col .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+</style>
