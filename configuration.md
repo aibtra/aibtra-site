@@ -31,3 +31,7 @@ Example:
     }
 }
 ```
+
+## colors.json
+
+`colors.json` includes various color constants that can be adjusted individually for the dark and light themes.
