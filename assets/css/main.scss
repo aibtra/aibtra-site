@@ -54,4 +54,16 @@ body {
   background-color: $background-color;
 }
 
+article.page {
+    float: left;
+    width: 100%;
+}
+
+.small-image {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 @import "minimal-mistakes";
